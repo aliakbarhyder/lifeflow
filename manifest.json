@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "LifeFlow AI",
+  "version": "2.0.0",
+  "description": "AI-powered productivity and learning platform - Master your focus, supercharge your learning",
+  "author": "LifeFlow AI Team",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.svg",
+      "32": "icon.svg",
+      "48": "icon.svg"
+    },
+    "default_title": "LifeFlow AI"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["icon.svg"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
