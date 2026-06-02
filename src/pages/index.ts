@@ -1,0 +1,10 @@
+export { Dashboard } from './Dashboard';
+export { FocusTimer } from './FocusTimer';
+export { NotesPanel } from './NotesPanel';
+export { TasksPanel } from './TasksPanel';
+export { LearningPanel } from './LearningPanel';
+export { AchievementsPanel } from './AchievementsPanel';
+export { AnalyticsPanel } from './AnalyticsPanel';
+export { SettingsPanel } from './SettingsPanel';
+export { ReflectionPanel } from './ReflectionPanel';
+export { Onboarding } from './Onboarding';
